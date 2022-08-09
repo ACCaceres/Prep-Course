@@ -1,8 +1,8 @@
 /* ESTILO */
 
 h1 {
-    color: mediumturquoise;
-    font-size: 58px;
+    color: navy;
+    font-size: 70px;
   }
   span {
     color: green;
@@ -19,6 +19,6 @@ h1 {
       height: 600px;
       width: 500px;
       background-color: red;
-      border: 2px solid green;
+      padding: 50px solid green;
 
   }
