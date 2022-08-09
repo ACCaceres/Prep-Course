@@ -20,5 +20,7 @@ h1 {
       width: 500px;
       background-color: red;
       padding: 50px solid green;
+      border: 1rem solid forestgreen;
+
 
   }
