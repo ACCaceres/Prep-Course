@@ -1,26 +1,51 @@
 /* ESTILO */
 
 h1 {
-    color:  forestgreen;
-    font-size: 50px;
-  }
-  span {
-    color: green;
-  }
-  img {width:400px ;
+  color: forestgreen;
+  font-size: 50px;
+}
 
-  }
-  #spanID{color:blue;
+span {
+  color: green;
+}
+
+img {
+  width: 400px;
+
+}
+
+#spanID {
+  color: red;
   font-size: 18px;
   margin: 50px;
 
-  }
-  #thirDiv{
-      height: 600px;
-      width: 500px;
-      background-color: red;
-      padding: 50px solid green;
-      border: 1rem solid forestgreen;
+}
 
+#thirDiv {
+  margin: 0 auto;
+  height: 600px;
+  width: 500px;
+  background-color: red;
+  padding: 2rem solid yellow;
+  border: 1rem solid forestgreen;
+}
 
-  }
+.divClass {
+  max-width: 500px;
+  margin: 0 auto;
+
+}
+
+.Container {
+  margin: auto;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  /* -webkit-justify-content: center;
+  justify-content: center;*/
+
+  width: auto;
+  height: auto;
+  background-image: url("https://images7.alphacoders.com/352/thumb-1920-352634.jpg");
+}
