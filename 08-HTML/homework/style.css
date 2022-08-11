@@ -26,8 +26,8 @@ img {
   height: 600px;
   width: 500px;
   background-color: red;
-  padding: 2rem solid yellow;
-  border: 1rem solid forestgreen;
+  padding: 50px;
+  border: 35px solid forestgreen;
 }
 
 .divClass {
