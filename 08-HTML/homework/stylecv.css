@@ -1,0 +1,37 @@
+h1 {
+    color: teal;
+    font-size: 50px;
+}
+
+h2 {
+    color: slategray;
+    font-size: 30px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    color: slategray;
+    font-size: 20px;
+      
+}
+div{
+    width: 600px;
+    margin:0 auto;
+}
+
+li{
+    display: flex;
+    justify-content:stretch;
+    color: slategray;
+}
+#fotoPerfil {
+    
+    display: flex;
+    justify-content: center;
+    float: right;
+    height: 300px;
+    width: 200px;
+
+
+}
