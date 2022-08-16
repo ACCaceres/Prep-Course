@@ -16,13 +16,13 @@ p {
       
 }
 div{
-    width: 600px;
-    margin:0 auto;
-}
 
-li{
-    display: flex;
-    justify-content:stretch;
+  }
+
+
+ul{
+    /* display: flex; */
+    /* justify-content:stretch; */
     color: slategray;
 }
 #fotoPerfil {
