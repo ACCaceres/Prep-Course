@@ -1,6 +1,6 @@
 h1 {
     color: teal;
-    font-size: 50px;
+    font-size:40PX;
 }
 
 h2 {
@@ -27,18 +27,21 @@ div{
     }
 
 ul li{
-    /* display: flex; 
-    /* justify-content:stretch; */
-    padding-bottom: 4px;
+    /* display: flex;  */
+    justify-content:stretch;
+    /* padding-bottom: 6px; */
+    padding-inline-end: 4px;
+    font-size: 18px;
      color: slategray;
 
 }
 
 #fotoPerfil {
     
-    display: flex; 
-    align-self: baseline;
-    float: right;
+    margin:auto;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
     height: 300px;
     width: 200px;
 
