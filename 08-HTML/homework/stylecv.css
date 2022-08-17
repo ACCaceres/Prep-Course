@@ -19,25 +19,48 @@ p {
 div{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:justify;
+    text-align: justify;
     height: auto;
-    width: 600px;
+    width: auto;
 
     }
 
-ul{
-    /* display: flex; */
+ul li{
+    /* display: flex; 
     /* justify-content:stretch; */
-    color: slategray;
+    padding-bottom: 4px;
+     color: slategray;
+
 }
 
 #fotoPerfil {
     
-    display: flex;
-    justify-content: center;
+    display: flex; 
+    align-self: baseline;
     float: right;
     height: 300px;
     width: 200px;
 
 
+}
+#educacion {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: justify;
+    /* height: auto; */
+    /* width: 600px; */
+    /* font-size: 18px; */
+    color: slategray;
+    }
+
+.Container{
+    margin: auto;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    height: auto;
+    width: 600px;
 }
