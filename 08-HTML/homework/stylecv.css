@@ -13,7 +13,7 @@ p {
     justify-content: center;
     color: slategray;
     font-size: 20px;
-      
+
 }
 
 div{
@@ -36,14 +36,23 @@ ul li{
 
 }
 
-#fotoPerfil {
-    
-    margin:auto;
-    display: -webkit-flex;
-    -webkit-flex-direction: column;
-    flex-direction: column;
+img {
+    /* display:grid; */
+    /* grid-template-columns: 20% 20% 20% 20% 20%; */
+    /* grid-template-rows: 20% ; */
+    /* grid-column-start:5; */
+       float: left;
+    margin:  1em 1em; 
     height: 300px;
-    width: 200px;
+    width: 300px;
+
+    /* height: 200px; */
+    /* width: 100px; */
+    /* margin:auto; */
+    /* display: -webkit-flex; */
+    /* -webkit-flex-direction: column; */
+    /* flex-direction: column; */
+
 
 
 }
